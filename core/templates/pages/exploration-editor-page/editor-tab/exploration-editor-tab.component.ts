@@ -137,7 +137,7 @@ export class ExplorationEditorTabComponent implements OnInit, OnDestroy {
     this.joyride
       .startTour({
         steps: this.joyRideSteps,
-        stepDefaultPosition: 'top',
+        stepDefaultPosition: 'bottom',
         themeColor: '#212f23',
       })
       .subscribe(
